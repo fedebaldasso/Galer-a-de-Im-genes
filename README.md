@@ -1,1 +1,1 @@
-# Galer-a-de-Im-genes
+# Galeria-de-Imagenes
