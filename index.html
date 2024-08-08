@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de Imágenes Modal con CSS y JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="slideshow">
+        <span class="btn_cerrar">&times;</span>
+        <div class="botones atras">
+          <box-icon name="left-arrow-circle"></box-icon>
+        </div>
+        <div class="botones adelante">
+          <box-icon name="right-arrow-circle"></box-icon>
+        </div>
+        <img src="" alt="" class="img_slideshow" />
+      </div>
+    </div>
+    <header class="encabezado">
+      <h1>Mi Galería</h1>
+    </header>
+    <section class="galeria">
+      <div class="columna">
+        <img src="img/frente.jpeg" alt="" data-img-mostrar="0" />
+        <img src="img/comedor.jpeg" alt="" data-img-mostrar="4" />
+        <img src="img/habitacion.jpeg" alt="" data-img-mostrar="8" />
+        <img src="img/habitacion4.jpeg" alt="" data-img-mostrar="12" />
+      </div>
+      <div class="columna">
+        <img src="img/frente1.jpeg" alt="" data-img-mostrar="1" />
+        <img src="img/comedor1.jpeg" alt="" data-img-mostrar="5" />
+        <img src="img/habitacion1.jpeg" alt="" data-img-mostrar="9" />
+        <img src="img/habitacion5.jpeg" alt="" data-img-mostrar="13" />
+      </div>
+      <div class="columna">
+        <img src="img/living.jpeg" alt="" data-img-mostrar="2" />
+        <img src="img/comedor2.jpeg" alt="" data-img-mostrar="6" />
+        <img src="img/habitacion2.jpeg" alt="" data-img-mostrar="10" />
+        <img src="img/baño.jpeg" alt="" data-img-mostrar="14" />
+      </div>
+      <div class="columna">
+        <img src="img/living1.jpeg" alt="" data-img-mostrar="3" />
+        <img src="img/comedor3.jpeg" alt="" data-img-mostrar="7" />
+        <img src="img/habitacion3.jpeg" alt="" data-img-mostrar="11" />
+        <img src="img/cochera.jpeg" alt="" data-img-mostrar="15" />
+      </div>
+    </section>
+  </body>
+</html>
